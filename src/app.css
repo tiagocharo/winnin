@@ -1,0 +1,74 @@
+.container-header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+}
+.container-header h1 {
+  font-size: 25px;
+  color: #fff;
+}
+.container-header h1 span {
+  color: #ff5500;
+}
+.container-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.container-buttons button {
+  width: 160px;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 6px;
+  background-color: #666666;
+  color: #fff;
+  border: none;
+  margin: 0 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+}
+.container-buttons .checked {
+  background-color: #ff5500;
+}
+
+.container-list {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.container-list .list-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-list .list-item:hover {
+  background-color: #eee;
+}
+.container-list .list-item img {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+.container-list .list-item .container-description .title a {
+  line-height: 17px;
+  color: #333333;
+  font-family: "Helvetica";
+  font-weight: bold;
+  text-decoration: none;
+}
+.container-list .list-item .container-description .send b {
+  font-weight: bold;
+}
+.container-list .list-item .container-description .send span {
+  color: #ff5500;
+}
+.container-list .list-item .container-description .domain a {
+  color: #333;
+}
