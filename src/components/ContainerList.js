@@ -27,7 +27,9 @@ export default class ContainerList extends Component {
 		return (
 			<div className="container-list">
 				{
-				data.data.children.map((item, index) => <ListItem key={index} data={item.data}/> )
+				data.data.children.length == 0 
+				?	<p className="error">Não existem dados aqui!</p> 
+				: 	data.data.children.map((item, index) => <ListItem key={index} data={item.data}/> )
 				}
 			</div>
 		);

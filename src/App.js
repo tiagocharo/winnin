@@ -12,7 +12,7 @@ class App extends Component {
     }
   }
   async request(category) {
-    let request = await fetch(`https://www.reddit.com/r/reactjs/${category}.json`);
+    let request = await fetch(`https://www.reddit.com/r/reactjs/${category}.json?sort=new`);
     let response = await request.json();
     console.log(response)
     this.setState({

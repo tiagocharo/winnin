@@ -41,6 +41,10 @@
   margin: 0 auto;
 }
 
+.container-list .error {
+  text-align: center;
+}
+
 .container-list .list-item {
     display: flex;
     align-items: center;

@@ -13,13 +13,13 @@ export default class ListItem extends Component {
         </div>
         <div className="container-description">
           <h3 className="title">
-            <a href={data.url} target="_blank">{data.title}</a>
+            <a href={data.url}>{data.title}</a>
           </h3>
           <p className="send">
               {`enviado ${moment.unix(data.created_utc).fromNow()} `}<b>por </b><span>{data.author}</span>
           </p>
           <p className="domain">
-             <a href={data.domain} target="_blank">{data.domain}</a>
+             <a href={data.domain}>{data.domain}</a>
           </p>
         </div>
       </div>
