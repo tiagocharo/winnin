@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import 'moment/locale/pt-br';
 moment.locale('pt-br');
-class App extends Component {
+
+export default class ListItem extends Component {
   render() {
     let { data } = this.props;
     return (
@@ -25,5 +26,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

@@ -65,10 +65,11 @@
 }
 .container-list .list-item .container-description .send b {
   font-weight: bold;
+  color: #333333;
 }
 .container-list .list-item .container-description .send span {
   color: #ff5500;
 }
 .container-list .list-item .container-description .domain a {
-  color: #333;
+  color: #333333;
 }

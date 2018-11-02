@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class App extends Component {
+export default class ContainerButtons extends Component {
 
 	onClickButton(e) {
 		e.preventDefault();
@@ -23,5 +23,3 @@ class App extends Component {
 		);
 	}
 }
-
-export default App;
